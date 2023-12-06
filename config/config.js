@@ -20,4 +20,4 @@ module.exports = {
     host: "sql.freedb.tech",
     dialect: "mysql"
   }
-}
+};
