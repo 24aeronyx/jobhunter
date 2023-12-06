@@ -18,6 +18,7 @@ module.exports = {
     password: "5BF6FadD3fA1DcC65b-c4Hded3HEBhHG",
     database: "railway",
     host: "roundhouse.proxy.rlwy.net",
+    port: 37774,
     dialect: "mysql"
   }
 }

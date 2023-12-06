@@ -6,9 +6,8 @@ module.exports = {
       const users = await user.findAll();
       res.json({ message: "Get All users success", data: users });
     } catch (error) {
-      res
-        .status(500)
-        .json({ message: "Terjadi kesalahan saat mengambil data pengguna" });
+      console.error(error);  // Log the error for debugging
+      res.status(500).json({ message: "Terjadi kesalahan saat mengambil data pengguna", error: error.message });
     }
   },
 };
