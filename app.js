@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const allRoutes = require('./routes')
 
-const PORT = 37774
+const PORT = process.env.PORT || 4000
 
 app.use(express.json())
 app.use(allRoutes)
