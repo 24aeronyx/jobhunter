@@ -1,9 +1,9 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "jobhunter",
-    "host": "127.0.0.1",
+    "password": "5BF6FadD3fA1DcC65b-c4Hded3HEBhHG",
+    "database": "railway",
+    "host": "roundhouse.proxy.rlwy.net",
     "dialect": "mysql"
   },
   "test": {
@@ -15,9 +15,9 @@
   },
   "production": {
     "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "password": "5BF6FadD3fA1DcC65b-c4Hded3HEBhHG",
+    "database": "railway",
+    "host": "roundhouse.proxy.rlwy.net",
     "dialect": "mysql"
   }
 }
