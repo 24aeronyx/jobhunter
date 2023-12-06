@@ -1,9 +1,9 @@
 module.exports = {
   development: {
-    username: "root",
-    password: null,
-    database: "jobhunter",
-    host: "127.0.0.1",
+    username: "freedb_naflah",
+    password: "tdSxqQ7QCUyG9T@",
+    database: "freedb_jobhunter",
+    host: "sql.freedb.tech",
     dialect: "mysql"
   },
   test: {
@@ -14,11 +14,10 @@ module.exports = {
     dialect: "mysql"
   },
   production: {
-    username: "root",
-    password: "5BF6FadD3fA1DcC65b-c4Hded3HEBhHG",
-    database: "railway",
-    host: "roundhouse.proxy.rlwy.net",
-    port: 37774,
+    username: "freedb_naflah",
+    password: "tdSxqQ7QCUyG9T@",
+    database: "freedb_jobhunter",
+    host: "sql.freedb.tech",
     dialect: "mysql"
   }
 }
