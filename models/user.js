@@ -10,23 +10,14 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      
+      // define association here
     }
   }
   user.init({
-    profil: DataTypes.BLOB,
-    name: DataTypes.STRING,
-    email: DataTypes.STRING,
-    address: DataTypes.STRING,
-    password: DataTypes.STRING,
-    phone: DataTypes.STRING,
-    role: DataTypes.ENUM("company", "user"),
-    about: DataTypes.STRING,
-    skill: DataTypes.STRING
+    name: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'user',
-    freezeTableName: true
   });
   return user;
 };
